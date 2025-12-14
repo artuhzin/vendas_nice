@@ -42,6 +42,7 @@ export const Hero: React.FC = () => {
           <img 
             src="https://picsum.photos/800/1200?random=10" 
             alt="Modelo vestindo vendas_nice" 
+            loading="eager"
             className="absolute bottom-0 left-4 w-[90%] h-[90%] object-cover object-top shadow-2xl z-10 rounded-tl-[100px]"
           />
         </div>
